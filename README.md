@@ -18,6 +18,6 @@ This project implements a simple load balancing program written in Java, with a 
    * Compiling the files **javac -cp json-20180813.jar:mysql-connector-java-8.0.15.jar *.java**
    * Worker **sudo java -cp json-20180813.jar:mysql-connector-java-8.0.15.jar:./ Worker $port**
    * Loadbalancer **sudo java -cp json-20180813.jar:mysql-connector-java-8.0.15.jar:./ LoadBalancer RR**
-   * Client ** java -cp json-20180813.jar:mysql-connector-java-8.0.15.jar:./ Client**
+   * Client **java -cp json-20180813.jar:mysql-connector-java-8.0.15.jar:./ Client**
 
 * Once launched, windows corresponding to Workers, Load Balancer, and Client will show appropriate outputs on terminal.
